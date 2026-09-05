@@ -1,5 +1,6 @@
-
-%% 7.17 Part B — Van der Waals equation of state
+%% Different Equations of State to find molar volumes
+% Various temperatures, pressures, and acentric factors 
+%% Van der Waals equation of state
 
 % Given values
 R = 0.08206;   % Ideal gas constant, L·atm/(mol·K)
@@ -93,7 +94,7 @@ disp(V_all)
 
 disp('Real physical molar volumes (L/mol):')
 disp(V_physical)
-%% 7.17 d Peng robinson
+%% Peng-Robinson
 % Given values
 R = 0.08206;   % Ideal gas constant, L·atm/(mol·K)
 T = 444.4;     % Temperature, K
