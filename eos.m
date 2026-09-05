@@ -275,18 +275,3 @@ disp(V_all)
 
 disp('Real physical molar volumes (L/mol):')
 disp(V_physical)
-%% graphing
-r = [0.390, 0.449, 0.500];       % Distance, nm
-U = [0.769, -1.000, -0.774];     % Energy, kJ/mol
-
-figure;
-plot(r, U, 'ko-','LineWidth', 2, 'MarkerFaceColor', 'k', 'MarkerSize', 7);
-
-xlabel('r (nm)');
-ylabel('U (kJ/mol)');
-title('Potential Energy vs. Distance');
-
-grid on;
-xlim([0.37 0.52]);
-ylim([-1.2 1.0]);
-
